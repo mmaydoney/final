@@ -1,5 +1,25 @@
 html {
-    height: 100%;
+  height: 100%;
+}
+/*body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url(img/hawaii/waipio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+}*/
+#fullPage {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
 }
 .container {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f6e6b4+0,ed9017+100;Yellow+3D+%231 */
@@ -11,10 +31,10 @@ html {
 }
 .container-1 {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffe8+0,d6dbbf+100;Wax+3D+%231 */
-background-color: rgb(254,255,232);
-text-align:center;
-padding-left: 60px;
-padding-right: 60px;
+  background-color: rgb(254,255,232);
+  text-align:center;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .container-2 {
   background: url(hawaiimap.jpg) no-repeat center center fixed;
@@ -25,20 +45,22 @@ padding-right: 60px;
 }
 .container-3 {
   background: rgb(122,188,255);
-
+}
+.container-4 {
+  background: rgb(71,147,104);
+}
+.container-5 {
+  background-image: url(img/hawaii/hilosunset.jpg) no-repeat center center fixed;
 }
 #respad {
-padding-top: 30px;
+  padding-top: 30px;
 }
 .imgDiv {
-   -webkit-border-radius : 95%;
-   border-radius : 95%;
-   -moz-border-radius : 95%;
-   border: 0;
+ -webkit-border-radius : 95%;
+ border-radius : 95%;
+ -moz-border-radius : 95%;
+ border: 0;
  }
-.main-nav {
-
-}
 .nav1 {
   background-color: transparent;
   /*color: black !important;*/
@@ -64,27 +86,32 @@ padding-top: 30px;
   overflow:hidden;
 }
 .di {
-    float: left;
-    width: 33.333%;
+  float: left;
+  width: 33.333%;
 }
 .lib {
-    float: left;
-    width: 25%;
-    list-style: none;
+  float: left;
+  width: 25%;
+  list-style: none;
+}
+.lif {
+  float: left;
+  /*width: 25%;*/
+  list-style: none;
 }
 .lic {
   list-style: none;
 }
 .lie {
-    float: left;
-    width: 25%;
-    text-align: right;
-    list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+  list-style: none;
 }
 .li {
-    float: left;
-    width: 33.33333%;
-    list-style: none;
+  float: left;
+  width: 33.33333%;
+  list-style: none;
 }
 #lil {
   font-size: 28px;
@@ -94,9 +121,9 @@ padding-top: 30px;
   list-style: none;
 }
 .lir {
-    float: right;;
-    width: 20%;
-    list-style: none;
+  float: right;;
+  width: 20%;
+  list-style: none;
 }
 .lid {
   float: left;
@@ -104,7 +131,6 @@ padding-top: 30px;
   list-style: none;
 }
 #dli {
-
   list-style: none;
   text-align: center;
   font-size: 16px;
@@ -115,82 +141,107 @@ padding-top: 30px;
 }
 
 #reswidth {
+  text-align: center;
   margin-left: 160px;
-  margin-right: 160px;
+  margin-right: 190px;
 }
-body {
-    margin:0;
-    margin-bottom:40px;
+/*body {
+  margin:0;
+  margin-bottom:40px;*/
 }
 
 h1 {
-    margin:0;
+  margin:0;
 }
 
 .main-nav {
-    width:100%;
-    padding:20px;
-    background-color:#EBEBEB;
-    box-sizing:border-box;
-    font-size:2em;
+  width:100%;
+  padding:20px;
+  background-color:#EBEBEB;
+  box-sizing:border-box;
+  font-size:2em;
 }
 
 .margin-top-40 {
-    margin-top:40px;
+  margin-top:40px;
 }
 
 .col-6 {
-    float:left;
-    width:50%;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
+  float:left;
+  width:50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 @media(max-width: 700px) {
   .col-6 {
   width:100%;
-}
+  }
 
 }
-/*#search-box {
-    width:300px;
-    border:#CCC 1px solid;
-    border-radius:5px;
-    -webkit-border-radius:5px;
-    -moz-border-radius:5px;
-    padding:10px;
-    display:block;
-}*/
-
-/*.banner {
-    width:100%;
-    background:url(img/diavel.jpg) no-repeat;
-    height:600px;
-    background-size:cover;
-}*/
 
 .banner h1 {
-    color: black;
-    text-align:center;
-    padding-top:10px;
-    font-size:4em;
+  color: black;
+  text-align:center;
+  padding-top:10px;
+  font-size:4em;
 }
 
 .content-img {
-    width:100;
-    border-radius:100%;
-    -webkit-border-radius:100%;
-    -moz-border-radius:100%;
+  width:100;
+  border-radius:100%;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
 }
 
 .txt-left {
-    text-align:left;
+  text-align:left;
 }
 
 .txt-right {
-    text-align:right;
+  text-align:right;
 }
 
 #margin-top-90 {
   margin-top:90px;
+}
+
+.background1 {
+
+}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+
+/*weather ajax/api*/
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #000;
+ font-family: Arial;
+
+}
+
+#main{
+  width:600px;
+  height: 600px;
+  background-color: #fff;
+  margin:0 auto;
+  text-align: center;
+  padding:10px 0px 10px 0px;
+}
+
+h2{
+  font-weight: bold;
+  color:#003399;
+}
+h1{
+  color:#003399;
 }
